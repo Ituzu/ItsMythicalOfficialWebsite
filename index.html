@@ -1,57 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> It's Mythical's Official Website </title>
+  <link rel="stylesheet" href="style.css">
 <style>
-/* Style the video to be fullscreen and fixed position */
-#bgVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -100; /* Put the video behind other elements */
-}
-
-/* Add styles for your content */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white;
-  width: 100%;
-  padding: 20px;
-}
+ @font-face {
+  font-family: "Kiwi Days";
+  src: url("fonts/Kiwi Days.ttf") format("truetype");
+ }
+ @font-face {
+  font-family: "COMIC SANS MS";
+  src: url("fonts/COMIC SANS MS.ttf") format("truetype");
+ }
+H2 { font-family:Comic Sans MS; text-align:left; text-Decoration:underline;color:red}
+H1 { font-family:Comic Sans MS; text-align:center; text-Decoration:underline;color:red}
+H3 { font-family:Kiwi Days; text-align:left; text-Decoration:underline;color:red}
+H4 { font-family:Kiwi Days; text-align:left; text-Decoration:underline;color:red}
+body{
+background-image:url('');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%
 </style>
 </head>
 <body>
-
-<video autoplay loop muted playsinline id="bgVideo">
+<body style="color:white; font-family:Comic Sans MS; font-size;50px">
+<H1> Welcome!! 🤗 </H1>
+<marquee  font-family:Comic Sans MS; text-Decoration:underline; color:white;> This is Officialy Created by It's Mythical </marquee>
+<p style="font-family:Times New Roman; text-transformation:uppercase">
+<hr size="10" width="90%" color="grey">
+</Body>
+ <body>
+<video id="myVideo" autoplay loop>
   <source src="your_video.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
+  <source src="your_video.webm" type="video/webm">
 </video>
 
-<div class="content">
-  <h1>Heading</h1>
-  <p>Lorem ipsum...</p>
-</div>
+  </body>
+<BODY>
+<body style="color:white; font-family:Kiwi Days; font-size;50px">
+<H2> WELCOME BACK </H2>
+</BODY>
+<BODY>
+<p style="color:white; font-family:Kiwi Days;">
+<p> This Website Is Under Maintenance. So Please Visit Later </p>
 
-<script>
-// Use JavaScript to enable audio when needed
-var video = document.getElementById("bgVideo");
-video.muted = true; // Start with muted audio
-
-// Function to toggle audio
-function toggleAudio() {
-  if (video.muted) {
-    video.muted = false;
-  } else {
-    video.muted = true;
-  }
-}
-
-// Call this function on a user interaction to enable audio
-// Example: <button onclick="toggleAudio()">Toggle Audio</button>
-</script>
-
-</body>
+</BODY>
 </html>
